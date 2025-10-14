@@ -2,5 +2,4 @@
 
 [[Standards]]
 **Commands**
-- [[man]]
-- 
+	- [[man]]
