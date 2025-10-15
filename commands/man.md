@@ -1,3 +1,4 @@
+#man #manual 
 ## man sections
 |Section|Contents|
 |---|---|

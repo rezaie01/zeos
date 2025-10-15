@@ -1,5 +1,12 @@
 #linux #lfs #os
 
-[[Standards]]
-**Commands**
-	- [[man]]
+## [[Standards]]
+--- 
+## **Commands**
+- [[man]]
+- [[mkfs]]
+---
+## Schritte
+- **[[host-system]]**
+- 
+****

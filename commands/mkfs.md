@@ -1,0 +1,1 @@
+#partitionierung #festplatten #dateisystem
