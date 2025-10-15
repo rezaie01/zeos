@@ -31,4 +31,5 @@
 `sudo apt install binutils bison texinfo build-essential`
 ### 3. Partitionierung für LFS:
 	1. Die Hauptpartition beschränken: ``
-	2. Erstelle eine neue Partition für das / von LFS: `mkfs `
+	2. Erstelle eine neue Partition für das / von LFS: `mkfs`, 
+	3. 
