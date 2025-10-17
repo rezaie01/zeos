@@ -33,7 +33,8 @@ LFS-Journey/
 # LFS-Umgebung vorbereiten
 export LFS=/mnt/lfs
 mkdir -v $LFS/sources
-chmod -v a+wt $LFS/sources```
+chmod -v a+wt $LFS/sources
+```
 
 ## 🖼️ Build-Meilensteine
 
