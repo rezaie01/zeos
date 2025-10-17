@@ -4,8 +4,6 @@
 ---
 ## Partitionierung
 
-### Festplattenlayout
-
 |Nr.|Größe|Mountpunkt|Dateisystem|Besonderheiten|
 |---|---|---|---|---|
 |1|300 MiB - 550 MiB|/boot/efi|FAT32|EFI-Systempartition|
@@ -25,9 +23,7 @@
 ### 1. Basisinformationen
 
 - **Betriebssystem**: Zorin OS 16
-- **Hardware-Übersicht**:  
-    ![](app://818e2278647f361570af409fd3fedd8edfbb/C:/Users/green/Desktop/rezos-linux/rezos-linux/Notizen/Pasted%20image%2020251015031513.png?1760490913391)
-
+- **Hardware-Übersicht**:  ![[Screenshot-2025-10-17-163032.png]]![[Screenshot-2025-10-17-163053.png]]
 ### 2. Paketinstallation
 
 ```bash
