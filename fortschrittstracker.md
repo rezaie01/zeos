@@ -25,7 +25,7 @@
 
 ---
 
-## ⚒️ Tag 2 – Kapitel 4 (Vorbereitung auf Toolchain)
+## ⚒️ Teil 2 – Kapitel 4 (Vorbereitung auf Toolchain)
 ### Ziel: LFS-User und Verzeichnisstruktur anlegen
 
 - [ ] Erstelle den Benutzer `lfs` und die passende Gruppenstruktur.  
@@ -202,4 +202,4 @@
 ## ✅ Abschluss
 
 
-**Projektende:** Mittwoch, 29. Oktober 2025  
+**Projektende:** Voraussichtlich am Mittwoch, 29. Oktober 2025  
