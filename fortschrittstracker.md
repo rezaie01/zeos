@@ -39,7 +39,7 @@
 
 ---
 
-## 🧱 Tag 3 – Kapitel 5.2 bis 5.9 (Toolchain Phase 1)
+## 🧱 Teil 3 – Kapitel 5.2 bis 5.9 (Toolchain Phase 1)
 ### Ziel: Erste Cross-Compiler-Toolchain erstellen
 
 - [ ] Lies die Einführung zu Kapitel 5 (Ziel der temporären Toolchain).  
@@ -54,7 +54,7 @@
 
 ---
 
-## ⚙️ Tag 4 – Kapitel 6.1 bis 6.6 (Toolchain Phase 2)
+## ⚙️ Teil 4 – Kapitel 6.1 bis 6.6 (Toolchain Phase 2)
 ### Ziel: Temporäre Werkzeuge in der isolierten Umgebung
 
 - [ ] Lies Kapitel 6 sorgfältig (zweite Phase).  
@@ -66,7 +66,7 @@
 
 ---
 
-## 🧍‍♂️ Tag 5 – Kapitel 7 (Chroot Environment)
+## 🧍‍♂️ Teil 5 – Kapitel 7 (Chroot Environment)
 ### Ziel: In das neue System wechseln
 
 - [ ] Lies genau, was beim Wechsel ins `chroot` geschieht.  
@@ -79,7 +79,7 @@
 
 ---
 
-## 🧩 Tag 6 – Kapitel 8.1 bis 8.10  
+## 🧩 Teil 6 – Kapitel 8.1 bis 8.10  
 ### Ziel: Aufbau des Basissystems – erste Systempakete
 
 - [ ] Lies den Überblick von Kapitel 8.  
@@ -91,7 +91,7 @@
 
 ---
 
-## ⚙️ Tag 7 – Kapitel 8.11 bis 8.25  
+## ⚙️ Teil 7 – Kapitel 8.11 bis 8.25  
 ### Ziel: Komplette Systemtools installieren
 
 - [ ] Setze die Arbeit im chroot fort.  
@@ -103,7 +103,7 @@
 
 ---
 
-## ⚙️ Tag 8 – Kapitel 8.26 bis 8.41  
+## ⚙️ Teil 8 – Kapitel 8.26 bis 8.41  
 ### Ziel: Abschluss der Systemsoftware und Tests
 
 - [ ] Installiere temporäre Bibliotheken, Header und systemrelevante Tools.  
@@ -114,7 +114,7 @@
 
 ---
 
-## 🪪 Tag 9 – Kapitel 9.1 bis 9.6 (Systemkonfiguration)
+## 🪪 Teil 9 – Kapitel 9.1 bis 9.6 (Systemkonfiguration)
 ### Ziel: Systemparameter und Grundkonfiguration
 
 - [ ] Setze Zeitzone und Locale.  
@@ -126,7 +126,7 @@
 
 ---
 
-## ⚙️ Tag 10 – Kapitel 9.7 bis 9.10 (Kernel & Bootloader)
+## ⚙️ Teil 10 – Kapitel 9.7 bis 9.10 (Kernel & Bootloader)
 ### Ziel: Kernel konfigurieren und GRUB installieren
 
 - [ ] Lies Abschnitt 9.7 aufmerksam (Kernelkonfiguration).  
@@ -138,7 +138,7 @@
 
 ---
 
-## 💻 Tag 11 – Kapitel 10.1 bis 10.3
+## 💻 Teil 11 – Kapitel 10.1 bis 10.3
 ### Ziel: Abschlussarbeiten und erste Boot-Vorbereitung
 
 - [ ] Entferne temporäre Dateien aus `/tools`.  
@@ -149,7 +149,7 @@
 
 ---
 
-## 🚀 Tag 12 – Erster Bootversuch
+## 🚀 Teil 12 – Erster Bootversuch
 ### Ziel: Eigenes LFS-System starten
 
 - [ ] Reboote die virtuelle Maschine in das neue System.  
@@ -161,7 +161,7 @@
 
 ---
 
-## 🧠 Tag 13 – Nachbereitung (Technisch)
+## 🧠 Teil 13 – Nachbereitung (Technisch)
 ### Ziel: Funktionalität testen & Logs prüfen
 
 - [ ] Überprüfe alle Systemdienste mit `systemctl list-units`.  
@@ -173,7 +173,7 @@
 
 ---
 
-## 📝 Tag 14 – Dokumentation & GitHub Upload (Teil 1)
+## 📝 Teil 14 – Dokumentation & GitHub Upload (Teil 1)
 ### Ziel: Dokumentation strukturieren
 
 - [ ] Sammle alle Build-Notizen und Snapshots.  
@@ -186,7 +186,7 @@
 
 ---
 
-## 📘 Tag 15 – Dokumentation & GitHub Upload (Teil 2)
+## 📘 Teil 15 – Dokumentation & GitHub Upload (Teil 2)
 ### Ziel: Projekt online stellen & Abschluss
 
 - [ ] Fertigstellung der README.md (Ziel, Vorgehen, Lessons Learned).  
