@@ -22,6 +22,8 @@
 1. [[host-system]] vorbereiten
 2. [[Partitionierung erstellen]]
 3. Toolchain kompilieren
+	1. [[Packages & Patches herunterladen]] 
+	2. 
 
 ### Temporäres System
 - [[chroot]]-Umgebung einrichten
