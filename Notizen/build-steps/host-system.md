@@ -40,5 +40,31 @@
 	2. Setze den Partitiontyp (Dateisystem) auf `Linux Swap` ein: `sudo mkswap -L swap-partition /dev/sda4` #mkswap
 3. Erstelle eine neue Partition für LFS (Linux from Scratch).
 	1. Erstelle die Partition `fdisk`, 
-	2. Setze den #Partitionstyp (Dateisystem) auf `ext4` ein: `sudo mkfs.ext4 -L LFS-root /dev/sda5` #mkfs 
+	2. Setze den #Partitionstyp (Dateisystem) auf `ext4` ein: `sudo mkfs.ext4 -L LFS-root /dev/sda5` #mkfs
+
+### 4. Festlegen der Umgebungsvariable `$LFS`  und der `Umask` (root & Benutzer):
+>- Login (TTY, SSH) → `.bash_profile`
+>-  GUI-Terminal/graphisches Login→ `.bashrc`
+>- Skript → nichts automatisch → `source .bashrc`/`source .bash_profile`/ definiere die Variablen
+
+- lege `umask` als `022` fest.
+
+> #umask #berechtigung
+>**Benützer Arte**: Eigentümer, Gruppe, Andere
+>**Berechtigungsarte**: 
+	- **Datei** r = Lesen = 4, w = schreiben (Ändern und Entfernen) = 2, x = Ausführen = 1
+	- **Verzeichnis**: r = Listen, w = Hinzufügen/Löschen, x = Verzeichnis betreten
 	
+
+- lege `$LFS` als `/mnt/lfs` oder ein anderes Verzeichnis.
+
+### 5.  Das Einbinden der neuen Partition:
+>Man bindet nicht die Partition ein sondern das Dateisystem. **Aber** jede Partition kann nur ein Dateisystem enthalten. 
+
+
+```sh
+sudo mkdir -pv $LFS
+sudo mount -v -t ext4 /dev/sda5 $LFS
+```
+
+Wenn ich es immer einbindende möchte, soll ich dann im `/etc/fstab` die Zeile `/dev/sda5 /mnt/lfs ext4 1 1` hinzufügen. 
