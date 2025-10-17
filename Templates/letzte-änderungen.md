@@ -1,0 +1,1 @@
+*Letzte Aktualisierung: {{date:YYYY-MM-DD HH:mm}}*

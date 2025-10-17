@@ -25,17 +25,7 @@
 
 ---
 
-## ⚒️ Teil 2 – Kapitel 4 (Vorbereitung auf Toolchain)
-### Ziel: LFS-User und Verzeichnisstruktur anlegen
-
-- [ ] Erstelle den Benutzer `lfs` und die passende Gruppenstruktur.  
-- [ ] Erstelle die Verzeichnisstruktur (`/mnt/lfs/tools`, `/mnt/lfs/sources`).  
-- [ ] Setze die richtigen Berechtigungen.  
-- [ ] Lade alle Quellpakete und Patches aus Kapitel 4.  
-- [ ] Prüfe die Integrität der Downloads (md5sum).  
-- [ ] Verknüpfe das `/tools`-Verzeichnis symbolisch, falls nötig.  
-- [ ] Richte die Umgebungsvariablen für den Benutzer `lfs` ein.  
-- [ ] 📸 **Snapshot 2:** „LFS-Benutzer eingerichtet und Struktur erstellt“  
+## [[Kapitel-4]]
 
 ---
 
