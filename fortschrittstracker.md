@@ -21,7 +21,7 @@
 - [x] Stelle sicher, dass alle benötigten Tools installiert sind (GCC, Bash, Make usw.). ✅ 2025-10-17
 - [x] Lege ein LFS-Verzeichnis auf der Host-Platte an. ✅ 2025-10-17
 - [x] Dokumentiere dein System-Setup (Kernel-Version, Distro, VM-RAM, Speicherplatz). ✅ 2025-10-17
-	[[Bericht von Kapitel 4 am 17.10.2025]]
+	[[Bericht von Kapitel 3 am 17.10.2025]]
 - [x] 📸 **Snapshot 1:** „Nach Vorbereitung Host + Partitionierung“ ✅ 2025-10-17
 
 ---

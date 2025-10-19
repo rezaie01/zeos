@@ -17,13 +17,7 @@
 
 ---
 
-## 3. Build-Schritte
-### Vorbereitung
-1. [[host-system]] vorbereiten
-2. [[Partitionierung erstellen]]
-3. Toolchain kompilieren
-	1. [[Packages & Patches herunterladen]] 
-	2. 
+## 3. [build-schritte](build-schritte.md)
 
 ### Temporäres System
 - [[chroot]]-Umgebung einrichten

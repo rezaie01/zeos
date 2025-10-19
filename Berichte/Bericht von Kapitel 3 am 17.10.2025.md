@@ -29,5 +29,5 @@
 ---
 
 ## Abschlussprüfung
-![[kapitel-4-überprüft.png]]  
+![[kapitel-3-überprüft.png]]  
 *Abb. 7: Erfolgsbestätigung für Kapitel 4 (Alle Pakete & Patches erfolgreich herunterladen und überprüfen*

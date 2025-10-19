@@ -10,24 +10,24 @@
 
 Ein dedizierter `lfs`-Benutzer isoliert den Build-Prozess vom Host-System und minimiert Risiken.
 
-- [ ] **1.1. Gruppe `lfs` erstellen (als `root`):**
+- [x] **1.1. Gruppe `lfs` erstellen (als `root`):**
     ```bash
     sudo groupadd lfs
     ```
 
-- [ ] **1.2. Benutzer `lfs` erstellen (als `root`):**
+- [x] **1.2. Benutzer `lfs` erstellen (als `root`):**
     *   Dieser Befehl setzt die primäre Gruppe (`-g`), erstellt ein Home-Verzeichnis (`-m`) und verhindert das Kopieren von Konfigurationsdateien vom Host (`-k /dev/null`).
     ```bash
     sudo useradd -s /bin/bash -g lfs -m -k /dev/null lfs
     ```
 
-- [ ] **1.3. Passwort für `lfs`-Benutzer setzen (als `root`):**
+- [x] **1.3. Passwort für `lfs`-Benutzer setzen (als `root`):**
     *   Dies ist notwendig, um dich später mit `su - lfs` als dieser Benutzer anzumelden.
     ```bash
     sudo passwd lfs
     ```
 
-- [ ] **1.4. Überprüfung (als `root`):**
+- [x] **1.4. Überprüfung (als `root`):**
     *   Prüfe, ob Benutzer und Gruppe korrekt angelegt wurden.
     ```bash
     id lfs
@@ -40,13 +40,13 @@ Ein dedizierter `lfs`-Benutzer isoliert den Build-Prozess vom Host-System und mi
 
 Wir erstellen die Arbeitsverzeichnisse und weisen sie dem `lfs`-Benutzer zu.
 
-- [ ] **2.1. LFS-Mountpoint als Variable setzen (optional, aber empfohlen):**
+- [x] **2.1. LFS-Mountpoint als Variable setzen (optional, aber empfohlen):**
     *   Definiere die `$LFS` Variable in deiner Host-Shell, um Tippfehler zu vermeiden.
     ```bash
     export LFS=/mnt/lfs
     ```
 
-- [ ] **2.2. Verzeichnisse erstellen (als `root`):**
+- [x] **2.2. Verzeichnisse erstellen (als `root`):**
     *   `$LFS/sources`: Für die heruntergeladenen Quellcode-Archive.
     *   `$LFS/tools`: Für die temporäre Cross-Toolchain.
     ```bash
@@ -54,20 +54,20 @@ Wir erstellen die Arbeitsverzeichnisse und weisen sie dem `lfs`-Benutzer zu.
     sudo mkdir -pv $LFS/tools
     ```
 
-- [ ] **2.3. Eigentümerschaft zuweisen (als `root`):**
+- [x] **2.3. Eigentümerschaft zuweisen (als `root`):**
     *   Der `lfs`-Benutzer muss der Eigentümer dieser Verzeichnisse sein.
     ```bash
     sudo chown -v lfs:lfs $LFS/sources
     sudo chown -v lfs:lfs $LFS/tools
     ```
 
-- [ ] **2.4. "Sticky Bit" für das `sources`-Verzeichnis setzen (als `root`):**
+- [x] **2.4. "Sticky Bit" für das `sources`-Verzeichnis setzen (als `root`):**
     *   **Wichtiger Schritt:** Dies stellt sicher, dass nur der Eigentümer einer Datei diese löschen kann, auch wenn andere Schreibrechte im Verzeichnis haben.
     ```bash
     sudo chmod -v a+wt $LFS/sources
     ```
 
-- [ ] **2.5. Überprüfung (als `root`):**
+- [x] **2.5. Überprüfung (als `root`):**
     *   Prüfe die Eigentümer und Berechtigungen der Verzeichnisse.
     ```bash
     ls -ld $LFS/sources $LFS/tools
@@ -80,18 +80,18 @@ Wir erstellen die Arbeitsverzeichnisse und weisen sie dem `lfs`-Benutzer zu.
 
 Alle für LFS 12.4 benötigten Pakete werden heruntergeladen und ihre Integrität geprüft.
 
-- [ ] **3.1. Zum `lfs`-Benutzer wechseln:**
+- [x] **3.1. Zum `lfs`-Benutzer wechseln:**
     ```bash
     su - lfs
     ```
     *   *Hinweis:* Das `-` ist wichtig, da es eine Login-Shell startet und das Home-Verzeichnis des `lfs`-Benutzers lädt.
 
-- [ ] **3.2. In das `sources`-Verzeichnis wechseln (als `lfs`-Benutzer):**
+- [x] **3.2. In das `sources`-Verzeichnis wechseln (als `lfs`-Benutzer):**
     ```bash
     cd $LFS/sources
     ```
 
-- [ ] **3.3. Download-Listen herunterladen (als `lfs`-Benutzer):**
+- [x] **3.3. Download-Listen herunterladen (als `lfs`-Benutzer):**
     *   Diese Dateien enthalten die URLs und Prüfsummen aller benötigten Pakete.
     ```bash
     wget https://www.linuxfromscratch.org/lfs/downloads/12.1/wget-list
@@ -99,12 +99,12 @@ Alle für LFS 12.4 benötigten Pakete werden heruntergeladen und ihre Integritä
     ```
     *   **Achtung:** Passe die Versionsnummer (hier `12.1`) an die exakte Version deines LFS-Buches an, falls sie abweicht! Für LFS 12.1 ist dies korrekt.
 
-- [ ] **3.4. Alle Pakete herunterladen (als `lfs`-Benutzer):**
+- [x] **3.4. Alle Pakete herunterladen (als `lfs`-Benutzer):**
     ```bash
     wget --input-file=wget-list --continue --directory-prefix=$LFS/sources
     ```
 
-- [ ] **3.5. Integrität der Downloads prüfen (als `lfs`-Benutzer):**
+- [x] **3.5. Integrität der Downloads prüfen (als `lfs`-Benutzer):**
     ```bash
     md5sum -c md5sums
     ```

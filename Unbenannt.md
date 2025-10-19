@@ -1,0 +1,8 @@
+- **Risiko beim Bauen als root**: Vermeiden, um Host-Systemschäden durch Fehler zu verhindern. Unprivilegierten Benutzer verwenden.  
+- **Benutzer/Gruppe erstellen**:  
+  - `groupadd lfs` (neue Gruppe für Berechtigungsmanagement).  
+  - `useradd -s /bin/bash -g lfs -m -k /dev/null lfs` (Benutzer mit Bash-Shell, Home-Verzeichnis, ohne Vorlagendateien).  
+- **Optional**: Passwort mit `passwd lfs` setzen.  
+- **Besitzrechte**: `chown -v lfs $LFS/{usr{,/*},var,etc,tools}` (Schreibzugriff für Bauprozesse).  
+- **Account-Wechsel**: `su - lfs` startet saubere Login-Shell.  
+- **Zweck**: Schutz des Hostsystems, klare Dateiberechtigungen und Paketverwaltung in der neuen Distribution.
