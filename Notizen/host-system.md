@@ -4,16 +4,17 @@
 ---
 ## Partitionierung
 
-|Nr.|Größe|Mountpunkt|Dateisystem|Besonderheiten|
-|---|---|---|---|---|
-|1|300 MiB - 550 MiB|/boot/efi|FAT32|EFI-Systempartition|
-|2|500 MiB|/boot|ext2|0% reservierte Blöcke, kein Journaling|
-|3|2 GB|SWAP|swap|Linux-Swap|
-|4|20 GB|/|ext4|Root-Partition|
+| Nr. | Größe             | Mountpunkt | Dateisystem             | Besonderheiten                         |
+| --- | ----------------- | ---------- | ----------------------- | -------------------------------------- |
+| 1   | 300 MiB - 550 MiB | /boot/efi  | FAT32<br>mkfs.fat -F 32 | EFI-Systempartition                    |
+| 2   | 500 MiB           | /boot      | ext2                    | 0% reservierte Blöcke, kein Journaling |
+| 3   | 2 GB              | SWAP       | swap                    | Linux-Swap                             |
+| 4   | 20 GB             | /          | ext4                    | Root-Partition                         |
 
 **Begründungen:**
 
 - **/boot mit ext2**: Reduziert Schreibzugriffe durch Verzicht auf Journaling
+- **/boot:** Könnte mit dem Host-System geteilt werden.
 - **Swap-Größe**: 2 GB als Daumenregel für Systeme mit 4-8 GB RAM
 
 ---
