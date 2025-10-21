@@ -12,6 +12,8 @@
     ```bash
     sudo mkfs.ext4 -L LFS-root /dev/sda5
     sudo mkdir -pv /mnt/lfs
+    chown root:root $LFS
+    chmod 755 $LFS
     sudo mount -v -t ext4 /dev/sda5 /mnt/lfs
     ```
     
