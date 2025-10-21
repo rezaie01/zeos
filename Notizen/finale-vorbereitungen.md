@@ -32,7 +32,7 @@ mkdir -pv $LFS/tools
 
 
 ### **Theoretischer Hintergrund: FHS und Verzeichnisstruktur**  
-Die **Filesystem Hierarchy Standard (FHS)** definiert die Anordnung von Systemdateien und Programmen. Moderne Systeme nutzen Symlinks (z.B. `/bin` → `/usr/bin`), um historisch bedingte Trennung zu vereinheitlichen. LFS folgt dem FHS-Standard, um Kompatibilität und Übersichtlichkeit zu gewährleisten.
+Die [[Filesystem Hierarchy Standard (FHS)]] definiert die Anordnung von Systemdateien und Programmen. Moderne Systeme nutzen Symlinks (z.B. `/bin` → `/usr/bin`), um historisch bedingte Trennung zu vereinheitlichen. LFS folgt dem FHS-Standard, um Kompatibilität und Übersichtlichkeit zu gewährleisten.
 
 >**<font color="#938953">HINWEIS:</font>**
 >*Das Verzeichnis `/usr/lib64` darf nicht erstellt werden. Falls vorhanden, deutet dies auf einen Fehler hin, der besonders beim Cross-Compiling schwer auffindbare Probleme verursachen kann.*
