@@ -18,6 +18,6 @@
 3. **Automatisches Mounten** (in `/etc/fstab`):
     
     ```
-    /dev/sda5  /mnt/lfs  ext4  defaults,noatime  0  1
+    /dev/sda5  /mnt/lfs  ext4  defaults  0  1
     ```
     
