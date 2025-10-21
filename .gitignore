@@ -1,1 +1,10 @@
-.obsidian
+.obsidian/*
+!.obsidian/themes
+!.obsidian/community-plugins.json
+!.obsidian/hotkeys.json
+!.obsidian/templates.json
+!.obsidian/appearance.json
+!.obsidian/app.json
+copilot/*
+!copilot/shortest\ possible.md
+!copilot/Translate\ to\ German.md
