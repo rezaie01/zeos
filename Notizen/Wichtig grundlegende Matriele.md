@@ -43,7 +43,10 @@ Es ist ratsam, den Terminal-Output in Logfiles umzuleiten, um im Fehlerfall schn
   ```bash
   ./configure 2>&1 | tee configure.log
   ```
-- **Verständnis entwickeln:** Hinterfrage bei Unklarheiten stets den Sinn eines Befehls, bevor man ihn blind ausführst.
+> **<font color="#9bbb59">ERKLÄRUNG</font>:
+>*`./configure` → führt das configure-Skript aus.*
+>*`2>&1` → leitet stderr (2) zu stdout (1) um.* (Streams: `stdin` 0)
+>*`| tee configure.log` → zeigt die Ausgabe an und schreibt (überschreiben) sie in `configure.log`.* 
 
 #### Übung 1:  
 Leite die Ausgabe deines nächsten Kommandos und dessen Fehlerausgaben in eine Datei. Welche Vorteile erkennst du dabei für komplexere Builds?
