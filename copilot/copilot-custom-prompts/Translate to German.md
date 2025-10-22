@@ -3,7 +3,7 @@ copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 20
 copilot-command-model-key: ""
-copilot-command-last-used: 1761150822649
+copilot-command-last-used: 1761171371765
 ---
 Translate {} into German:
     1. Preserve the meaning and tone

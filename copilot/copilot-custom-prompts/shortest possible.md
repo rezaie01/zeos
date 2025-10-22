@@ -3,7 +3,7 @@ copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 0
 copilot-command-model-key: ""
-copilot-command-last-used: 1760878238520
+copilot-command-last-used: 1761151115216
 ---
 Create the shortest acceptable version of {}, following these rules:
 - Keep all main ideas and key points.

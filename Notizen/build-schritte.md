@@ -6,6 +6,8 @@
 3. [[Packages & Patches herunterladen]] 
 4. [finale Vorbereitungen](finale-vorbereitungen.md)
 
-# Erstellen der LFS-Cross-Toolchain und des temporären Werkzeugs
+# Actuelles Bauen von System
+## [[Wichtig grundlegende Matriele]]
+## Phase 1: Ein Cross-Toolchain compilieren
+1. [[Binutils]]
 
-1. [[Notizen/Wichtig grundlegende Matriele]]
