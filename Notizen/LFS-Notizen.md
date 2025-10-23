@@ -23,7 +23,7 @@
 - [[chroot]]-Umgebung einrichten
 - Paketinstallation:
   - [[Binutils]]
-  - [[GCC]]
+  - [[GCC - Der Compiler]]
   - [[Glibc]]
 
 ---

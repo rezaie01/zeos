@@ -10,4 +10,5 @@
 ## [[Wichtig grundlegende Matriele]]
 ## Phase 1: Ein Cross-Toolchain compilieren
 1. [[Binutils]]
-
+2. [[GCC - Der Compiler]]
+3. 
