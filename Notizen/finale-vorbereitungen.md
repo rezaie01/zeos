@@ -56,13 +56,6 @@ useradd -s /bin/bash -g lfs -m -k /dev/null lfs
 >*`useradd`: `-g` -> Gruppe auf ,,lfs'' setzen. `-m` -> Home-Verzeichnis erstellen. 
 >`-k /dev/null` -> Normalerweise werden Dateien aus `/etc/skel` bei der Usererstellung ins Homedir kopiert; hier verhindert `/dev/null` (leer) die Nutzung bestehender Dateien.*
 
-- **useradd -s /bin/bash -g lfs -m -k /dev/null lfs**
-  - **-s /bin/bash**: Legt Bash als Standard-Shell für den Benutzer „lfs” fest. So landet der Benutzer nach dem Login direkt in Bash, nicht z.B. in sh oder dash.
-  - **-g lfs**: Setzt die Primärgruppe des Benutzers auf „lfs”.
-  - **-m**: Erstellt automatisch ein Home-Verzeichnis, typischerweise `/home/lfs`, falls noch nicht vorhanden.
-  - **-k /dev/null**: Normalerweise werden Dateien aus dem Vorlagenverzeichnis (`/etc/skel`) bei der Usererstellung ins Homedir kopiert; hier wird verhindert, dass bestehende Dateien genutzt werden (weil `/dev/null` leer ist).
-  - Das letzte Argument `lfs` ist der Benutzername.
-
 Um sich **direkt als `lfs` anzumelden** oder mit **`su - lfs`** von einem Nicht-root-Account zu wechseln, ist ein Passwort erforderlich. 
 Befehl: 
 ```bash

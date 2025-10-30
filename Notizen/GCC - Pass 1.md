@@ -17,7 +17,7 @@ mv -v mpc-1.3.1 mpc
 
 wenn die Maschine x86_64 ist, dann im Quellverzeichnis von `GCC` führt man dieses Kommando aus, um den `GCC` zu sagen, **wo GCC beim Kompilieren nach vorhandenen Bibliotheken suchen soll** und **wo er sie beim Linken erwarten soll**.
 ```bash
-case $(uname -m) in x86_64) sed -e '/m64=/s/lib64/lib/' \ -i.orig gcc/config/i386/t-linux64 ;; esac
+case $(uname -m); in x86_64) sed -e '/m64=/s/lib64/lib/' \ -i.orig gcc/config/i386/t-linux64 ;; esac
 ```
 > **<font color="#9bbb59">ERKLÄRUNG</font>:**
 >*`sed`*: *`sed` ist ein **Stream Editor** – ein Tool zum **automatischen Bearbeiten von Textdateien**. [[sed]]*
@@ -28,7 +28,7 @@ case $(uname -m) in x86_64) sed -e '/m64=/s/lib64/lib/' \ -i.orig gcc/config/i38
 > 
 > *`-i.orig` → ändere die Datei direkt und mache vorher eine Sicherungskopie mit Endung `.orig`*
 > 
-> `*gcc/config/i386/t-linux64` → das ist die Datei, die geändert wird (im GCC-Quellcodeverzeichnis)*
+> *`gcc/config/i386/t-linux64` → das ist die Datei, die geändert wird (im GCC-Quellcodeverzeichnis)*
 
 
 ```bash

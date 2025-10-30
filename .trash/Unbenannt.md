@@ -1,4 +1,4 @@
-- **Risiko beim Bauen als root**: Vermeiden, um Host-Systemschäden durch Fehler zu verhindern. Unprivilegierten Benutzer verwenden.  
+ **Risiko beim Bauen als root**: Vermeiden, um Host-Systemschäden durch Fehler zu verhindern. Unprivilegierten Benutzer verwenden.  
 - **Benutzer/Gruppe erstellen**:  
   - `groupadd lfs` (neue Gruppe für Berechtigungsmanagement).  
   - `useradd -s /bin/bash -g lfs -m -k /dev/null lfs` (Benutzer mit Bash-Shell, Home-Verzeichnis, ohne Vorlagendateien).  

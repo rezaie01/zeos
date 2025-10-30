@@ -11,4 +11,6 @@
 ## Phase 1: Ein Cross-Toolchain compilieren
 1. [[Binutils]]
 2. [[GCC - Der Compiler]]
-3. 
+3. [[Linux API Headers]]
+4. [[Glibc-2.42]]
+5. 
