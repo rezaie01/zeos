@@ -9,8 +9,9 @@
 # Actuelles Bauen von System
 ## [[Wichtig grundlegende Matriele]]
 ## Phase 1: Ein Cross-Toolchain compilieren
-1. [[Binutils]]
-2. [[GCC - Der Compiler]]
-3. [[Linux API Headers]]
+1. [[Binutils-2.45 - Pass 1]]
+2. [[GCC-15.2.0 - Pass 1]]
+3. [[Linux-6.16.1 API Headers]]
 4. [[Glibc-2.42]]
-5. 
+5. [[Libstdc++ from GCC-15.2.0]]
+

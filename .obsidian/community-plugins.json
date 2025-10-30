@@ -2,5 +2,6 @@
   "obsidian-git",
   "obsidian-minimal-settings",
   "editing-toolbar",
-  "copilot"
+  "copilot",
+  "obsidian-relative-line-numbers"
 ]

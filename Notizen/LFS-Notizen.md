@@ -19,18 +19,7 @@
 
 ## 3. [build-schritte](build-schritte.md)
 
-### Temporäres System
-- [[chroot]]-Umgebung einrichten
-- Paketinstallation:
-  - [[Binutils]]
-  - [[GCC - Der Compiler]]
-  - [[Glibc]]
-
----
-
 ## 4. Konfiguration
 - [[fstab]]-Einträge
 - [[kernel]]-Kompilierung
 - [[Bootloader]]-Installation
-
-*Letzte Aktualisierung: 2025-10-17 08:46*
