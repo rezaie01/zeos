@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
   "vimMode": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "readableLineLength": false
 }
