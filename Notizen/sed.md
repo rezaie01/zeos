@@ -1,3 +1,5 @@
+[Sed Guide](https://roadmap.sh/ai/guide/die-umfassende-anleitung-zu-sed-textverarbeitung-im-terminal-und-in-bashskripten "Sed - guide")
+
 
 --- 
 # 🧰 `sed` Cheatsheet
