@@ -1,0 +1,8 @@
+[[9.0. System Configuration.md]]  
+[[9.2. LFS-Bootscripts.md]]  
+[[9.3. Overview of Device and Module Handling.md]]  
+[[9.4. Geräteverwaltung (Managing Devices).md]]  
+[[9.5. General Network Configuration.md]]  
+[[9.7. Configuring the System Locale.md]]  
+[[9.8. Erstellen der inputrc Datei.md]]  
+[[9.9. Erstellen der shells Datei.md]]

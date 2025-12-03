@@ -24,3 +24,11 @@
 	```
 - Snapshot: 
 	![[snapshots.png]]
+
+
+***
+
+## Was ich gelernt habe?
+
+1. **Ausführen von Kernbefehlen & Hilfe (make)** – Die mehrstufige Kompilierung von GCC und Binutils lehrt mich, dass ich `make` mit spezifischen Targets (z. B. `make mrproper`, `make install`) und Flags steuern muss. Dies ist Kernwissen für jeden, der Code baut.  
+2. **Textverarbeitung (`sed`/`awk`) (Patchen)** – Ich nutze `sed` intensiv, um die Pfade in der Cross-Toolchain zu korrigieren und somit die Abhängigkeit vom Host-System zu brechen. Diese präzise Textmanipulation ist für das Patchen von Quellen unerlässlich.

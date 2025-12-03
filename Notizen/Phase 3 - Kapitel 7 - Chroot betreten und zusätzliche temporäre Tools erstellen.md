@@ -655,3 +655,10 @@ chmod -v 600 /var/log/btmp
 | **`/var/log/btmp`**    | Zeichnet **fehlerhafte (schlechte) Anmeldeversuche** auf.       | Alle fehlgeschlagenen Login-Versuche.                                                             |
 | **`/run/utmp`**        | Speichert Informationen über **aktuell angemeldete** Benutzer.  | Wird **dynamisch** während der Boot-Skripte erstellt.                                             |
 
+***
+Kompilationen in der chroot-Umgebung:
+- [[7.10. Python-3.13.7.md]]
+- [[7.11. Texinfo-7.2.md]]
+- [[7.12. Util-linux-2.41.1.md]]
+- [[7.7. Gettext-0.26.md]]
+- [[7.8. Bison-3.8.2.md]]

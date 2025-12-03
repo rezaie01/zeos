@@ -31,3 +31,9 @@
 ## Abschlussprüfung
 ![[kapitel-3-überprüft.png]]  
 *Abb. 7: Erfolgsbestätigung für Kapitel 4 (Alle Pakete & Patches erfolgreich herunterladen und überprüfen*
+
+***
+
+## Was ich gelernt habe?
+1. **Backup-Strategien (`tar`, Wiederherstellung)** – Ich habe die Wichtigkeit erkannt, `tar` für das Erstellen von komprimierten Backups zu nutzen, insbesondere nachdem kritische temporäre Tools gebaut wurden. Das ist die Grundlage für eine zuverlässige Wiederherstellungsstrategie.  
+2. **`wget` (Webprüfung)** – Ich nutze `wget` nicht nur zum Herunterladen der Quellpakete, sondern auch zur Verifizierung ihrer Integrität mittels MD5-Prüfsummen, bevor ich sie verwende. Ich garantiere damit die Unverfälschtheit der verwendeten Quellen.
