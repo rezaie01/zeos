@@ -16,14 +16,21 @@ Willkommen zu ZeOS. Inoffiziell: Ziemlich Extrem Ödes System. Ich baue alles se
 
 ## ✅ Ergebnis und Status
 
-Ziel: Ein System, das alleine bootet und lebt.  Der Build läuft. Das Video kommt beim ersten sauberen Boot. 👏👏
+- Ziel erreicht: Ein System, das selbstständig bootet und läuft. Der Build ist durch.  
+- **BOOM!** Mein Name **Habibullah Rezaie** steht jetzt offiziell auf der LFS-Liste! 🥳  
+  (https://www.linuxfromscratch.org/cgi-bin/lfscounter.php – scroll ganz nach unten 👇)  
+  _Teil des klugen Clubs: Der 32.850ste, der LFS gebaut hat – und jetzt stolz gelistet!_
 
-<iframe width="1243" height="699" src="https://www.youtube.com/embed/ki0yPUOYWmQ" title="ZeOs - Eine Linux from Scratch versuch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Das Video kommt beim ersten sauberen Boot. 👏👏
+
+
+![[ZeOS_github-72060ps.webm]]
 
 Das war **Schwierig** 🥶 ABER hat auch Spaß 🥳 gemacht.  
 _Es hat vom 10. Oktober bis zum 30. November gedauert. Schritt für Schritt habe ich in diesem Zeitraum ständig – aber als Freizeitprojekt – daran gearbeitet._
 
-
+Jetzt ist meinen Name als die, die LFS fertig gemacht haben, auf der Seite von LFS gelisted. 
+gehe auf https://www.linuxfromscratch.org/cgi-bin/lfscounter.php und suche nach ,,Habibullah Rezaie''. Ich war der 32850 ste der LFS gemacht hat.
 
 ---
 
